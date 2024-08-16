@@ -1,20 +1,14 @@
 name: Enter Reflections
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: [push, pull_request]
 
 jobs:
-  check-complete:
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-    - name: Run completeness check script
-      run: |
-        chmod +x ./.github/workflows/check-complete.sh
-        bash ./.github/workflows/check-complete.sh
+    - name: all entries made
+      run: bash ./.github/workflows/check-complete.sh
