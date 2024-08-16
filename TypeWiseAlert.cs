@@ -1,5 +1,3 @@
-// File: TypewiseAlert.cs
-
 using System;
 
 public static class TypewiseAlert
