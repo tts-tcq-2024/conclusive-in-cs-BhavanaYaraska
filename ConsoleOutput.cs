@@ -12,7 +12,6 @@ public class ConsoleOutput : IDisposable
         originalOutput = Console.Out;
         Console.SetOut(stringWriter);
     }
-
     public string GetOutput()
     {
         return stringWriter.ToString();
