@@ -5,4 +5,3 @@ if grep -q '_enter' *.md; then
   exit 1
 else
   echo "All required reflections have been entered."
-fi
