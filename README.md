@@ -40,9 +40,10 @@ This section is about your regular work / project, not about the code in this re
 
 Think about guiding refactoring-work in your regular/project teams. Think of the day-to-day work done in your team, and improving the quality of code.
 
-You have seen a few workflows in this repository. They are quality-gates to prevent duplication, control complexity and prove functionality. Do you think some of them have potential to guide code-improvements in your team? yes
+You have seen a few workflows in this repository. They are quality-gates to prevent duplication, control complexity and prove functionality. Do you think some of them have potential to guide code-improvements in your team?    Yes
 
 During the next four weeks, what improvement do you plan in your code-quality practice? (in your regular work, not in this repository!)
+
 in my regular work I plan to:
 1.Adopt Test-Driven Development (TDD) to write tests before adding new features.
 2.Implement Continuous Integration (CI) with checks for code duplication and complexity.
