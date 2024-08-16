@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -x
 
 # Search for '_enter' in Markdown files
 if grep -q '_enter' *.md; then
