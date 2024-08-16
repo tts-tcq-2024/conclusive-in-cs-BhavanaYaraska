@@ -11,7 +11,6 @@ public static class AlertFactory
             _ => throw new ArgumentOutOfRangeException(nameof(alertTarget), alertTarget, null)
         };
     }
-
     public static ICoolingStrategy CreateCoolingStrategy(CoolingType coolingType)
     {
         return coolingType switch
