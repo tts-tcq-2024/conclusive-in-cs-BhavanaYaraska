@@ -19,7 +19,6 @@ public static class TypewiseAlert
     {
         return coolingStrategy.ClassifyTemperature(temperatureInC);
     }
-
     public static void CheckAndAlert(AlertTarget alertTarget, BatteryCharacter batteryChar, double temperatureInC)
     {
         ICoolingStrategy strategy = AlertFactory.CreateCoolingStrategy(batteryChar.coolingType);
